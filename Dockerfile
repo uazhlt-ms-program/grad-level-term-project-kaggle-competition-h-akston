@@ -10,6 +10,8 @@ RUN pip install -U pytorch-lightning \
     graphviz==0.16 \
     "ipython>=7.20.0,<8" \
     notebook==6.4.6 \
+    spacy==3.7.4 \
+    nltk==3.8.1 \
     jupyter-client==7.1.2 \
     jupyter-contrib-nbextensions==0.5.1 \
     && jupyter contrib nbextension install --user
